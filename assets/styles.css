@@ -1,0 +1,105 @@
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+    
+  }
+  @keyframes anime {
+    0% {background-color: #ccddd7;}
+    25% {background-color: rgb(203, 156, 207);}
+    50% {background-color: rgb(114, 100, 129);}
+    100% {background-color: rgb(97, 118, 180);}
+  }
+  
+  .h1{
+    text-align: center;
+    font-weight: 200;
+    font-size: xx-large;
+    animation-name: anime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  /* Add styles to the form container */
+  .container { /*login page container*/
+    position:absolute;
+    right: 100;
+    margin: 20px;
+    max-width: 400px;
+    max-height: 800px;
+    padding: 16px;
+    background-color: white;
+  }
+  
+  .container1 { /*registration block container*/
+    position:absolute;
+    right: 0;
+    margin: 20px;
+    max-width: 400px;
+    max-height: 800px;
+    padding: 1px;
+    background-color: white;
+  }
+  
+  .container2 { /*image of bowler container*/
+    position:center;
+    margin: 20px;
+    max-width: 400px;
+    max-height: 800px;
+    padding: 26px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  input[type=email], input[type=password], input[type=text] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=email]:focus, input[type=password]:focus, input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit button */
+  .btn {
+    background-color: #065b3c;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  p{text-align: center;}
+
+  .row{
+    display: flex;
+  }
+  .column{
+    flex: 50%;
+    padding: 18px;
+  }
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  .row1{
+    display: flex;
+  }
+  .column1{
+    flex: 33.3%;
+    padding: 30px;
+  }

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{background-color: rgb(11, 11, 11); font-family: Verdana, Geneva, Tahoma, sans-serif; color: #fff; padding: 30px;}
+            h1{font-size: 48px; text-transform: uppercase; letter-spacing: 2px; text-align: center;}
+            p{font-size: 16px; text-align: center;}
+        </style>
+    </head>
+    <body>
+        <h1><%=error%>, Oops</h1>
+        <p>You've enetered something wrong.</p>
+        <p> <%= alert%> </p>
+
+        <% if(data== 'userLogin') { %>
+            <a href="./user">Back</a>
+        <% }else if(data== 'invalid') { %>
+            <a href="./">Logout</a>
+        <%}else {%>
+            <a href="/">Return to Homepage</a>
+        <%}%>
+        
+    </body>
+</html>
