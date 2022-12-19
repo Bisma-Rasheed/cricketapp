@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false,
             unique: {
                 args: true,
-                msg: 'A User is already registered against this email address'
+                msg: 'A User is already registered against this email address.'
             }
         },
 
